@@ -21,17 +21,17 @@ window.onload = function(){
         main_content_element.className = "main-content bio"
     })
 
-    cv_button.addEventListener("click", function(){
-        main_content_element.className = "main-content cv"
-    })
+    // cv_button.addEventListener("click", function(){
+    //     main_content_element.className = "main-content cv"
+    // })
 
     for (var i = 0; i < 2; i++){
         research_button[i].addEventListener("click", function(){
             main_content_element.className = "main-content research"
         })
-        media_button[i].addEventListener("click", function(){
-            main_content_element.className = "main-content media"
-        })
+        // media_button[i].addEventListener("click", function(){
+        //     main_content_element.className = "main-content media"
+        // })
     }
 
     setTimeout(function(){

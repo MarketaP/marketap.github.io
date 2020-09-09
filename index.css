@@ -150,11 +150,15 @@ img.body-profile {
     box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
 }
 
-img.body-education, img.body-other-activities {
+img.body-image {
     height: 280px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
     position: relative;
+}
+
+img.body-image.body-image-vertical {
+    height: 380px;
 }
 
 div.body-content {
