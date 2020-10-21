@@ -1,0 +1,29 @@
+@media (max-width: 1000px) {
+    header .header-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    h1.header-name a {
+        font-size: 1.5rem;
+    }
+    
+    .body-section img,
+    .body-hero {
+        display: none;
+    }
+
+    .body-section .body-text-right,
+    .body-section .body-text-left {
+        padding: 0;
+    }
+
+    .page {
+        margin-top: 100px;
+    }
+
+    header {
+        background: linear-gradient(170deg, rgba(234,244,251,1) 0%, rgba(236,244,250,1) 35%, rgba(244,248,251,1) 100%) !important;
+    }
+}
