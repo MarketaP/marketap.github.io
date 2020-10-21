@@ -18,6 +18,7 @@ window.onload = function(){
     })
 
     bio_button.addEventListener("click", function(){
+        window.scroll(0,0)
         main_content_element.className = "main-content bio"
     })
 
@@ -27,6 +28,7 @@ window.onload = function(){
 
     for (var i = 0; i < 2; i++){
         research_button[i].addEventListener("click", function(){
+            window.scroll(0,0)
             main_content_element.className = "main-content research"
         })
         // media_button[i].addEventListener("click", function(){
