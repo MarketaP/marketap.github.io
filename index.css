@@ -146,6 +146,10 @@ div.body-section-content {
     align-items: center;
 }
 
+.media div.body-section-content {
+    justify-content: center;
+}
+
 img.body-profile {
     width: 280px;
     border-radius: 280px;
@@ -215,4 +219,56 @@ footer .footer-content {
 
 .social-media-links a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
+}
+
+#modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1001;
+    display: none;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+#modal.open{
+    display: flex;
+}
+
+#modal-backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1002;
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#modal-container{
+    background-color: rgb(236, 244, 250);
+    padding: 20px;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, .4), 0 15px 40px rgba(0, 0, 0, .2), 0 2px 5px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1003;
+}
+
+#close-modal{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: grey;
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 1;
 }
