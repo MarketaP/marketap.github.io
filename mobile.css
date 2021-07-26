@@ -2,6 +2,14 @@
     header .header-content {
         flex-direction: column;
     }
+    #modal-container{
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    #close-modal{
+        display: none;
+    }
 }
 
 @media (max-width: 800px) {
